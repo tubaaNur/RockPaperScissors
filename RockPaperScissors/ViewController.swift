@@ -19,33 +19,34 @@ enum GameResult: String {
     case win, lose, draw
 }
 
-
 class ViewController: UIViewController {
-    
+    var userElement = ""
+    var computerElement = ""
+    var result = ""
     
     @IBOutlet weak var playerScore: UILabel!
     @IBOutlet weak var computerScore: UILabel!
     @IBAction func rockClick(_ sender: Any) {
-        var userElement = MovementElement.rock.rawValue
-        var computerElement = computerPlay()
+        userElement = MovementElement.rock.rawValue
+        computerElement = computerPlay()
         
-        var result = play(userElement, computerElement)
-        print(userElement + computerElement + result.rawValue)
+        result = play(userElement, computerElement).rawValue
+        print(userElement + computerElement + result)
     }
     
     @IBAction func scissorsClick(_ sender: Any) {
-        var userElement = MovementElement.scissors.rawValue
-        var computerElement = computerPlay()
+        userElement = MovementElement.scissors.rawValue
+        computerElement = computerPlay()
         
-        var result = play(userElement, computerElement)
-        print(userElement + computerElement + result.rawValue)
+        result = play(userElement, computerElement).rawValue
+        print(userElement + computerElement + result)
     }
     @IBAction func paperClick(_ sender: Any) {
-        var userElement = MovementElement.paper.rawValue
-        var computerElement = computerPlay()
+         userElement = MovementElement.paper.rawValue
+        computerElement = computerPlay()
 
-        var result = play(userElement, computerElement)
-        print(userElement + computerElement + result.rawValue)
+        result = play(userElement, computerElement).rawValue
+        print(userElement + computerElement + result)
     }
     var score = 0
     
@@ -75,6 +76,29 @@ class ViewController: UIViewController {
             
         }
         return gameResult
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if(segue.identifier == "rockToResult"){
+            let destinationViewController = segue.destination as! SecondScreenViewController
+            destinationViewController.computerElement = computerElement
+            destinationViewController.userElement = userElement
+            destinationViewController.result = result
+        }
+        if(segue.identifier == "paperToResult"){
+            let destinationViewController = segue.destination as! SecondScreenViewController
+            destinationViewController.computerElement = computerElement
+            destinationViewController.userElement = userElement
+            destinationViewController.result = result
+        }
+        if(segue.identifier == "scisssorsToResult"){
+            let destinationViewController = segue.destination as! SecondScreenViewController
+            destinationViewController.computerElement = computerElement
+            destinationViewController.userElement = userElement
+            destinationViewController.result = result
+        }
+        
     }
     
 }
