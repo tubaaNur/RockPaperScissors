@@ -16,6 +16,7 @@
 		2927E8B42A59894000064BB7 /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8B32A59894000064BB7 /* RockPaperScissorsTests.swift */; };
 		2927E8BE2A59894000064BB7 /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8BD2A59894000064BB7 /* RockPaperScissorsUITests.swift */; };
 		2927E8C02A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8BF2A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift */; };
+		2927E8CD2A598BAD00064BB7 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8CC2A598BAD00064BB7 /* SecondScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2927E8B92A59894000064BB7 /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2927E8BD2A59894000064BB7 /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		2927E8BF2A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2927E8CC2A598BAD00064BB7 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondScreenViewController.swift; path = ../../../SecondScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2927E8A52A59893F00064BB7 /* Assets.xcassets */,
 				2927E8A72A59893F00064BB7 /* LaunchScreen.storyboard */,
 				2927E8AA2A59893F00064BB7 /* Info.plist */,
+				2927E8CC2A598BAD00064BB7 /* SecondScreenViewController.swift */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2927E8CD2A598BAD00064BB7 /* SecondScreenViewController.swift in Sources */,
 				2927E8A12A59893E00064BB7 /* ViewController.swift in Sources */,
 				2927E89D2A59893E00064BB7 /* AppDelegate.swift in Sources */,
 				2927E89F2A59893E00064BB7 /* SceneDelegate.swift in Sources */,
