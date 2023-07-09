@@ -53,10 +53,6 @@
 		2927E8BF2A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2927E8CE2A59B91300064BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../IOSWorkspace/LoginPage/LoginPage/Assets.xcassets; sourceTree = "<group>"; };
 		29DD08F32A5B09C000D69859 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		29DD090A2A5B111600D69859 /* Screenshot 2023-07-09 at 18.54.36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-09 at 18.54.36.png"; sourceTree = "<group>"; };
-		29DD090B2A5B111800D69859 /* Screenshot 2023-07-09 at 18.54.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-09 at 18.54.55.png"; sourceTree = "<group>"; };
-		29DD090C2A5B111A00D69859 /* Screenshot 2023-07-09 at 18.56.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-09 at 18.56.25.png"; sourceTree = "<group>"; };
-		29DD090D2A5B111C00D69859 /* Screenshot 2023-07-09 at 18.56.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-09 at 18.56.38.png"; sourceTree = "<group>"; };
 		29E85A322A5AC83200078980 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 		29E85A342A5ADBFE00078980 /* MovementElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementElement.swift; sourceTree = "<group>"; };
 		29E85A362A5ADC3500078980 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
@@ -111,10 +107,6 @@
 		2927E89B2A59893E00064BB7 /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
-				29DD090A2A5B111600D69859 /* Screenshot 2023-07-09 at 18.54.36.png */,
-				29DD090C2A5B111A00D69859 /* Screenshot 2023-07-09 at 18.56.25.png */,
-				29DD090B2A5B111800D69859 /* Screenshot 2023-07-09 at 18.54.55.png */,
-				29DD090D2A5B111C00D69859 /* Screenshot 2023-07-09 at 18.56.38.png */,
 				2927E8CE2A59B91300064BB7 /* Assets.xcassets */,
 				2927E89C2A59893E00064BB7 /* AppDelegate.swift */,
 				2927E89E2A59893E00064BB7 /* SceneDelegate.swift */,
