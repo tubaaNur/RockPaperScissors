@@ -12,4 +12,5 @@ enum MovementElement: String {
     static var allCases: [MovementElement] {
         return [.rock, .paper, .scissors]
     }
+    
 }

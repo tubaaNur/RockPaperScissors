@@ -8,5 +8,7 @@
 import Foundation
 enum GameResult: String {
     case win, lose, draw
+    
+  
 }
 

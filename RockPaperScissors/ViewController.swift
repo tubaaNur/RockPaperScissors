@@ -49,8 +49,9 @@ class ViewController: UIViewController {
     }
     
     func play(_ usersChoice: String, _ computersChoice: String) -> GameResult {
-        var gameResult = GameResult.draw
-        
+        var gameResult : GameResult = .draw
+               
+            
         switch (usersChoice, computersChoice) {
         case (MovementElement.rock.rawValue, MovementElement.paper.rawValue), (MovementElement.paper.rawValue, MovementElement.scissors.rawValue), (MovementElement.scissors.rawValue, MovementElement.rock.rawValue):
             if playerScore != 0{
