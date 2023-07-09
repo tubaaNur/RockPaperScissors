@@ -18,14 +18,5 @@ class SecondScreenViewController: UIViewController {
         userSelection.text = userElement
         computerSelection.text = computerElement
         gameResult.text = result
-            
     }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-           if segue.identifier == "ViewController" {
-                   let destinationViewController = segue.destination as! ViewController
-               destinationViewController.userElement = userElement!
-               destinationViewController.computerElement = computerElement!
-           }
-       }
 }
