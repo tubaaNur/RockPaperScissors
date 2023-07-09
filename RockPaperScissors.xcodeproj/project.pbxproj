@@ -52,6 +52,7 @@
 		2927E8BD2A59894000064BB7 /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		2927E8BF2A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2927E8CE2A59B91300064BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../IOSWorkspace/LoginPage/LoginPage/Assets.xcassets; sourceTree = "<group>"; };
+		29DD08F32A5B09C000D69859 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		29E85A322A5AC83200078980 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 		29E85A342A5ADBFE00078980 /* MovementElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementElement.swift; sourceTree = "<group>"; };
 		29E85A362A5ADC3500078980 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 		2927E8902A59893E00064BB7 = {
 			isa = PBXGroup;
 			children = (
+				29DD08F32A5B09C000D69859 /* readme.md */,
 				2927E89B2A59893E00064BB7 /* RockPaperScissors */,
 				2927E8B22A59894000064BB7 /* RockPaperScissorsTests */,
 				2927E8BC2A59894000064BB7 /* RockPaperScissorsUITests */,
