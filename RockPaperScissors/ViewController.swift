@@ -7,17 +7,8 @@
 
 import UIKit
 
-enum MovementElement: String {
-    case rock, paper, scissors
-    
-    static var allCases: [MovementElement] {
-        return [.rock, .paper, .scissors]
-    }
-}
 
-enum GameResult: String {
-    case win, lose, draw
-}
+
 
 class ViewController: UIViewController {
     var userElement: String?
