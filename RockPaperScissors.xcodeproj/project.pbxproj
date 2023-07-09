@@ -15,8 +15,8 @@
 		2927E8B42A59894000064BB7 /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8B32A59894000064BB7 /* RockPaperScissorsTests.swift */; };
 		2927E8BE2A59894000064BB7 /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8BD2A59894000064BB7 /* RockPaperScissorsUITests.swift */; };
 		2927E8C02A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8BF2A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift */; };
-		2927E8CD2A598BAD00064BB7 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8CC2A598BAD00064BB7 /* SecondScreenViewController.swift */; };
 		2927E8CF2A59B91300064BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2927E8CE2A59B91300064BB7 /* Assets.xcassets */; };
+		29E85A332A5AC83200078980 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E85A322A5AC83200078980 /* SecondScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		2927E8B92A59894000064BB7 /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2927E8BD2A59894000064BB7 /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		2927E8BF2A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2927E8CC2A598BAD00064BB7 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondScreenViewController.swift; path = ../../../SecondScreenViewController.swift; sourceTree = "<group>"; };
 		2927E8CE2A59B91300064BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../IOSWorkspace/LoginPage/LoginPage/Assets.xcassets; sourceTree = "<group>"; };
+		29E85A322A5AC83200078980 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				2927E8A22A59893E00064BB7 /* Main.storyboard */,
 				2927E8A72A59893F00064BB7 /* LaunchScreen.storyboard */,
 				2927E8AA2A59893F00064BB7 /* Info.plist */,
-				2927E8CC2A598BAD00064BB7 /* SecondScreenViewController.swift */,
+				29E85A322A5AC83200078980 /* SecondScreenViewController.swift */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2927E8CD2A598BAD00064BB7 /* SecondScreenViewController.swift in Sources */,
+				29E85A332A5AC83200078980 /* SecondScreenViewController.swift in Sources */,
 				2927E8A12A59893E00064BB7 /* ViewController.swift in Sources */,
 				2927E89D2A59893E00064BB7 /* AppDelegate.swift in Sources */,
 				2927E89F2A59893E00064BB7 /* SceneDelegate.swift in Sources */,
