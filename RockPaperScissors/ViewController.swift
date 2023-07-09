@@ -24,6 +24,10 @@ class ViewController: UIViewController {
     var computerElement = ""
     var result = ""
     
+    var pScore = 0
+    var cScore = 0
+    
+   
     @IBOutlet weak var playerScore: UILabel!
     @IBOutlet weak var computerScore: UILabel!
     @IBAction func rockClick(_ sender: Any) {
@@ -41,6 +45,8 @@ class ViewController: UIViewController {
         result = play(userElement, computerElement).rawValue
         print(userElement + computerElement + result)
     }
+    @IBAction func playButton(_ sender: Any) {
+    }
     @IBAction func paperClick(_ sender: Any) {
          userElement = MovementElement.paper.rawValue
         computerElement = computerPlay()
@@ -52,8 +58,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.hidesBackButton = true
+        playerScore.text = "Your Score: \(pScore)"
+        computerScore.text = "Computer Score: \(cScore)"
         // Do any additional setup after loading the view.
+      
     }
+    @IBAction func start(_ sender: Any) {
+           playerScore.text = "Your Score: 0"
+           computerScore.text = "Computer Score: 0"
+           pScore = 0
+           cScore = 0
+       }
     
     func computerPlay() -> String {
         MovementElement.allCases.randomElement()?.rawValue ??  MovementElement.rock.rawValue
@@ -79,6 +95,8 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        
         
         if(segue.identifier == "rockToResult"){
             let destinationViewController = segue.destination as! SecondScreenViewController
