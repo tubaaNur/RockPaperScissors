@@ -16,7 +16,10 @@
 		2927E8BE2A59894000064BB7 /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8BD2A59894000064BB7 /* RockPaperScissorsUITests.swift */; };
 		2927E8C02A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2927E8BF2A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift */; };
 		2927E8CF2A59B91300064BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2927E8CE2A59B91300064BB7 /* Assets.xcassets */; };
-		29DD09012A5B0CA900D69859 /* Screenshot 2023-07-09 at 18.41.13.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DD09002A5B0CA900D69859 /* Screenshot 2023-07-09 at 18.41.13.png */; };
+		29DD09032A5B106F00D69859 /* Screenshot 2023-07-09 at 18.54.36.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DD09022A5B106F00D69859 /* Screenshot 2023-07-09 at 18.54.36.png */; };
+		29DD09052A5B108200D69859 /* Screenshot 2023-07-09 at 18.54.55.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DD09042A5B108200D69859 /* Screenshot 2023-07-09 at 18.54.55.png */; };
+		29DD09072A5B109300D69859 /* Screenshot 2023-07-09 at 18.56.25.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DD09062A5B109300D69859 /* Screenshot 2023-07-09 at 18.56.25.png */; };
+		29DD09092A5B10A100D69859 /* Screenshot 2023-07-09 at 18.56.38.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DD09082A5B10A100D69859 /* Screenshot 2023-07-09 at 18.56.38.png */; };
 		29E85A332A5AC83200078980 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E85A322A5AC83200078980 /* SecondScreenViewController.swift */; };
 		29E85A352A5ADBFF00078980 /* MovementElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E85A342A5ADBFE00078980 /* MovementElement.swift */; };
 		29E85A372A5ADC3500078980 /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E85A362A5ADC3500078980 /* GameResult.swift */; };
@@ -54,10 +57,10 @@
 		2927E8BF2A59894000064BB7 /* RockPaperScissorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2927E8CE2A59B91300064BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../IOSWorkspace/LoginPage/LoginPage/Assets.xcassets; sourceTree = "<group>"; };
 		29DD08F32A5B09C000D69859 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		29DD08FC2A5B0C5700D69859 /* Screenshot 2023-07-09 at 18.27.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-09 at 18.27.02.png"; sourceTree = "<group>"; };
-		29DD08FE2A5B0C5B00D69859 /* Screenshot 2023-07-09 at 18.27.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-09 at 18.27.31.png"; sourceTree = "<group>"; };
-		29DD08FF2A5B0C5D00D69859 /* Screenshot 2023-07-09 at 18.28.03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-07-09 at 18.28.03.png"; sourceTree = "<group>"; };
-		29DD09002A5B0CA900D69859 /* Screenshot 2023-07-09 at 18.41.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-07-09 at 18.41.13.png"; path = "../../Screenshot 2023-07-09 at 18.41.13.png"; sourceTree = "<group>"; };
+		29DD09022A5B106F00D69859 /* Screenshot 2023-07-09 at 18.54.36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-07-09 at 18.54.36.png"; path = "../../Screenshot 2023-07-09 at 18.54.36.png"; sourceTree = "<group>"; };
+		29DD09042A5B108200D69859 /* Screenshot 2023-07-09 at 18.54.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-07-09 at 18.54.55.png"; path = "../../Screenshot 2023-07-09 at 18.54.55.png"; sourceTree = "<group>"; };
+		29DD09062A5B109300D69859 /* Screenshot 2023-07-09 at 18.56.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-07-09 at 18.56.25.png"; path = "../../Screenshot 2023-07-09 at 18.56.25.png"; sourceTree = "<group>"; };
+		29DD09082A5B10A100D69859 /* Screenshot 2023-07-09 at 18.56.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2023-07-09 at 18.56.38.png"; path = "../../Screenshot 2023-07-09 at 18.56.38.png"; sourceTree = "<group>"; };
 		29E85A322A5AC83200078980 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 		29E85A342A5ADBFE00078980 /* MovementElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementElement.swift; sourceTree = "<group>"; };
 		29E85A362A5ADC3500078980 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
@@ -92,10 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				29DD08F32A5B09C000D69859 /* readme.md */,
-				29DD09002A5B0CA900D69859 /* Screenshot 2023-07-09 at 18.41.13.png */,
-				29DD08FC2A5B0C5700D69859 /* Screenshot 2023-07-09 at 18.27.02.png */,
-				29DD08FE2A5B0C5B00D69859 /* Screenshot 2023-07-09 at 18.27.31.png */,
-				29DD08FF2A5B0C5D00D69859 /* Screenshot 2023-07-09 at 18.28.03.png */,
+				29DD09022A5B106F00D69859 /* Screenshot 2023-07-09 at 18.54.36.png */,
+				29DD09042A5B108200D69859 /* Screenshot 2023-07-09 at 18.54.55.png */,
+				29DD09062A5B109300D69859 /* Screenshot 2023-07-09 at 18.56.25.png */,
+				29DD09082A5B10A100D69859 /* Screenshot 2023-07-09 at 18.56.38.png */,
 				2927E89B2A59893E00064BB7 /* RockPaperScissors */,
 				2927E8B22A59894000064BB7 /* RockPaperScissorsTests */,
 				2927E8BC2A59894000064BB7 /* RockPaperScissorsUITests */,
@@ -252,9 +255,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2927E8A92A59893F00064BB7 /* LaunchScreen.storyboard in Resources */,
+				29DD09072A5B109300D69859 /* Screenshot 2023-07-09 at 18.56.25.png in Resources */,
+				29DD09052A5B108200D69859 /* Screenshot 2023-07-09 at 18.54.55.png in Resources */,
 				2927E8CF2A59B91300064BB7 /* Assets.xcassets in Resources */,
-				29DD09012A5B0CA900D69859 /* Screenshot 2023-07-09 at 18.41.13.png in Resources */,
 				2927E8A42A59893E00064BB7 /* Main.storyboard in Resources */,
+				29DD09092A5B10A100D69859 /* Screenshot 2023-07-09 at 18.56.38.png in Resources */,
+				29DD09032A5B106F00D69859 /* Screenshot 2023-07-09 at 18.54.36.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

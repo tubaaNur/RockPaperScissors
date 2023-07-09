@@ -34,6 +34,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseForegroundColor" red="0.54370359840000004" green="0.12146730209999999" blue="0.18414916379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="rockClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="crI-ED-kEB"/>
@@ -57,7 +58,7 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseForegroundColor" red="0.7598058956" green="0.097816801174511941" blue="0.081245689062395987" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.54370359840000004" green="0.12146730209999999" blue="0.18414916379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="paperClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O2a-Zt-qQ9"/>
@@ -109,13 +110,13 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Scissors">
                                             <attributes>
-                                                <color key="NSColor" red="0.54370359841443294" green="0.12146730207477482" blue="0.18414916383921137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="NSColor" red="0.43517428139999997" green="0.12089368740000001" blue="0.26222887960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="17" name="Helvetica"/>
                                                 <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseForegroundColor" red="0.64681034540000004" green="0.1963625914036716" blue="0.084823252215754499" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.54370359840000004" green="0.12146730209999999" blue="0.18414916379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="scissorsClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lwy-sc-3x3"/>
