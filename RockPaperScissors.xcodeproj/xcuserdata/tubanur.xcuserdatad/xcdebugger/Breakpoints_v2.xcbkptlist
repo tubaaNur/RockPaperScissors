@@ -3,4 +3,54 @@
    uuid = "7412FC91-3647-44C9-A895-74B5AFB102E2"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F5C10AD-2EED-4174-B9F3-2B062681334F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RockPaperScissors/SecondScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F5C10AD-2EED-4174-B9F3-2B062681334F - 3a4730b2c0a7a123"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RockPaperScissors.SecondScreenViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RockPaperScissors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tubanur/Desktop/RockPaperScissors/RockPaperScissors/RockPaperScissors/SecondScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "6F5C10AD-2EED-4174-B9F3-2B062681334F - 3a4730b2c0a7a123"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RockPaperScissors.SecondScreenViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RockPaperScissors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tubanur/Desktop/RockPaperScissors/RockPaperScissors/RockPaperScissors/SecondScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
